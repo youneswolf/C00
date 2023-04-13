@@ -4,12 +4,15 @@ void ft_putchar(char c){
 write(1,&c,1); 
 }
 
-int main(){	
+void ft_alphabet(){	
 int i=65;
 while(i<91){
 ft_putchar(i);
 i++;
 }
-return 0;
 
 }
+int main(){
+ft_alphabet();
+return 0;
+	}
